@@ -5,7 +5,7 @@
 Shapes generated from a 1D game of life.
 
 1) each rule (group of 3 cells) corresponds to a shape 
-2) shapes are organised into column, a column corresponds to a serie of similar cell (series of ones and series of zeros)
+2) shapes are organised into column, a column corresponds to a serie of similar cells
 
 ## Rule to shape conversions
 
