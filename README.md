@@ -1,8 +1,22 @@
-# Game of Shape
+# Game of Shapes
 
 [Game of shapes](https://arthursw.github.io/game-of-shapes/)
 
 Shapes generated from a 1D game of life.
+
+1) each rule (group of 3 cells) corresponds to a shape 
+2) shapes are organised into column, a column corresponds to a serie of similar cell (series of ones and series of zeros)
+
+## Rules to shape
+
+ - '000': nothing
+ - '001': rectangle
+ - '010': circle
+ - '011': down triangle
+ - '100': horizontal rectangle
+ - '101': vertical rectangle
+ - '110': small circle
+ - '111': up triangle
 
 ## Controls
 
