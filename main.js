@@ -235,8 +235,9 @@ let draw = ()=> {
             let height = stepY * 0.8
             let path = shapes[pattern](width, height)
             if(path) {
-                path.bounds.left = currentX + width * 0.1
-                path.bounds.top = top + currentY + height * 0.1
+                path.bounds.center.x = currentX + width / 2
+                path.bounds.center.y = top + currentY + height / 2
+                path.pivot = path.bounds.center
                 path.fillColor = 'white'
                 group.addChild(path)
             }
